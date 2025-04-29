@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Center</title>
-    
+
     <link rel="stylesheet" href="style_index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
@@ -16,26 +16,30 @@
     <!-- NAVBAR -->
     <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary heigth">
         <div class="container-fluid">
-        <!-- Texto da NAVBAR -->
-          <a class="navbar-brand" href="#">Product Center</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <form class="d-flex ms-auto" role="search">
-              <input class="form-control me-2" type="search" placeholder="Procurar produto..." aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Procurar</button>
-            </form>
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <div>
-                    <a class="nav-link" href="carrinho.html"><img src="/Prova_Html_Css/assets/carrinho_navbar/cart3.svg" alt="Carrinho"></a>
-                </div>
-              </li>
-            </ul>
-          </div>
+            <!-- Texto da NAVBAR -->
+            <a class="navbar-brand" href="#">Product Center</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex ms-auto" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Procurar produto..."
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Procurar</button>
+                </form>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <div>
+                            <a class="nav-link" href="carrinho.html"><img
+                                src="/PROVA.mod1/assets/carrinho_navbar/cart3.svg" alt="Carrinho"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
 
     <!-- CARROSEL -->
     <div id="carouselExampleIndicators" class="carousel slide">
@@ -49,7 +53,8 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/Prova_Html_Css/assets/carousel/ChatGPT Image 22 de abr. de 2025, 20_12_31.png" class="d-block w-100" alt="Imagem de Propaganda">
+                <img src="/PROVA.mod1/assets/carousel/ChatGPT Image 22 de abr. de 2025, 20_12_31.png"
+                    class="d-block w-100" alt="Imagem de Propaganda">
             </div>
             <div class="carousel-item">
                 <img src="..." class="d-block w-100" alt="...">
@@ -70,44 +75,42 @@
         </button>
     </div>
 
-    <h1>Promoções</h1>
+    <h1 id="promocoes">Promoções</h1>
 
     <!-- Produtos em Promoção -->
-    <section>
+    <section d-flex align-items-center justify-content-center min-vh-100>
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 1</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="col d-flex">
+                    <div class="card h-100 w-100">
+                        <img src="/PROVA.mod1/assets/Promoções/Halter.png" class="card-img-top" alt="Halter">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Halter de academia</h5>
+                            <p class="card-text">Faça seus treinos em casa a partir de hoje.
+                            </p>
+                            <a href="/PROVA.mod1/carrinho.html" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 2</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="col d-flex">
+                    <div class="card h-100 w-100">
+                        <img src="/PROVA.mod1/assets/Promoções/Panela.png" class="card-img-top" alt="Panela">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Kit de panela tramontina</h5>
+                            <p class="card-text">Panelas antiaderente</p>
+                            <a href="/PROVA.mod1/carrinho.html" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 3</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="col d-flex">
+                    <div class="card h-100 w-100">
+                        <img src="/PROVA.mod1/assets/Promoções/notebook.png" class="card-img-top" alt="Notebook">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Notebook Samsung E30</h5>
+                            <p class="card-text">1TB HD, 4GB RAM, 15,6 Polegadas, intel i3, memória expansiva</p>
+                            <a href="/PROVA.mod1/carrinho.html" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>
                     </div>
                 </div>
